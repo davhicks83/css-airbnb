@@ -1,3 +1,91 @@
-h1 {
-  color: salmon;
+body {
+  background-color: rgb(236,239,235);
+  font-family: 'Work Sans', sans-serif;
+  color: rgb(60, 60, 60);
+  text-align: center;
 }
+h1 {
+  margin: 0 auto;
+}
+h2 {
+color: rgb(255, 255, 255);
+padding: 12vh 0;
+max-width: 80vw;
+font-size: 1em;
+}
+p {
+  margin: ;
+}
+
+.topCities {
+  display: flex;
+  justify-content: center;
+}
+
+#SanFranTop {
+  background-image: url("/css-airbnb/img/san-francisco.jpg");
+  height: 30vh;
+  width: 30vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  margin: 0 .5rem;
+}
+
+#NewYork {
+  background-image: url("/css-airbnb/img/new-york.jpg");
+  height: 30vh;
+  width: 30vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  margin: 0 .5rem;
+}
+
+#London {
+  background-image: url("/css-airbnb/img/london.jpg");
+  height: 30vh;
+  width: 30vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  margin: 0 .rem
+}
+
+#Napa {
+  background-image: url("/css-airbnb/img/napa.jpg");
+  height: 30vh;
+  width: 30vh;
+  background-repeat: no-repeat;
+  background-position: cover;
+  text-align: center;
+  margin: 0 .5rem;
+}
+
+#Sonoma {
+  background-image: url("/css-airbnb/img/sonoma.jpg");
+  height: 30vh;
+  width: 30vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  margin: 0 .5rem;
+}
+
+#SanFranBtm {
+  background-image: url("/css-airbnb/img/san-francisco-2.jpg");
+  height: 30vh;
+  width: 30vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  margin: 0 .rem
+}
+
+
+button
+ {
+   margin: 2rem;
+   padding: .5em 2em;
+   background-color: rgb(255, 255, 255);
+ }
